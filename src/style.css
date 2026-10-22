@@ -33,21 +33,27 @@ body {
 .search-bar--big {
   height: 70px;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .search-bar--small {
   height: 42px;
+  margin-top: 20px;
 }
 
 .search-bar__input {
-  width: 158px;
+  flex: 1;
   height: 19px;
   border: none;
   padding: 0;
   font-size: 16px;
   line-height: 100%;
   font-family: inherit;
+  font-weight: inherit;
+}
+
+.search-bar__input::placeholder {
+  color: #3d4e61;
+  opacity: 1;
 }
 
 .search-bar__input--small {
