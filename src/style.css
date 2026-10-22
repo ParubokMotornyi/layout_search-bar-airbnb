@@ -30,14 +30,20 @@ body {
   border-radius: 4px;
 }
 
+.search-bar:first-child {
+  margin-top: 20px;
+}
+
+.search-bar + .search-bar {
+  margin-top: 20px;
+}
+
 .search-bar--big {
   height: 70px;
-  margin-top: 20px;
 }
 
 .search-bar--small {
   height: 42px;
-  margin-top: 20px;
 }
 
 .search-bar__input {
